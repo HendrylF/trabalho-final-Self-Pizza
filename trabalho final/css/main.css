@@ -1,0 +1,90 @@
+html {background: url(pizza.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    }
+    
+    
+    .logo{
+      display:line;
+      font: italic 1.7rem serif;
+      color: rgb(231, 218, 99);
+      background: rgb(122, 0, 0);
+      text-align: left;
+    }
+
+    .redes{
+       display:line;
+       color: rgba(255, 255, 255, 0);
+       background: rgb(122, 0, 0);
+       text-align: right;
+       
+      }
+      a{
+        color: rgb(231, 218, 99);
+
+      }
+
+
+    .title{
+        font: italic 2.0rem serif;
+       color: rgb(231, 218, 99);
+       text-align: left;
+      }
+
+
+
+    .itens{
+        display: grid;
+        grid-template-columns: 200px 200px;
+        grid-auto-rows: 250px;
+        background: rgb(255, 255, 255);
+        width: 700px;
+        height: 650px;
+        align-items: left;
+        text-align: center;
+        justify-content: space-evenly;
+        border-radius: 0px;
+        box-shadow: 0 0 20px rgba(231, 210, 50, 0);
+      }
+      
+      button{
+        width: 200px;
+        height: 30px;
+        font: italic 1.2rem serif;
+        background: rgb(10, 61, 13);
+        box-shadow: 0px 0px 10px rgba(255, 255, 226, 0);
+        color: rgb(255, 255, 255);
+        outline: none;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+      
+    
+    body {
+        font-family:  "Helvetica Neue", Helvetica, Arial, italic, sans-serif;
+        font: italic 1.2rem serif;
+        background-color: rgba(0, 0, 0, 0);
+        color: rgb(0, 0, 0);
+        margin: 0px;
+        padding: 0px;
+        }
+
+
+        .result{
+          display: column;
+          margin-top: 3px;
+          align-items: left top;
+          width: 700px;
+          height: 250px;
+          border-radius: 1px;
+          font: italic 1.2rem serif;
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0);
+          background: rgb(255, 254, 182);
+          color: rgb(0, 0, 0);
+          padding: 20px;
+          box-sizing: border-box;
+          user-select: none;
+        }
